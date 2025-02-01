@@ -1,0 +1,13 @@
+let str = 'я учу javascript!';
+let substrResult = str.substr(2, 3);
+let substrResult2 = str.substr(6, 10);
+let substringResult = str.substring(2, 5);
+let substringResult2 = str.substring(6, 16);
+let sliceResult = str.slice(2, 5);
+let sliceResult2 = str.slice(6, 16);
+console.log("substr 'учу':", substrResult);
+console.log("substr 'javascript':", substrResult2);
+console.log("substring 'учу':", substringResult);
+console.log("substring 'javascript':", substringResult2);
+console.log("slice 'учу':", sliceResult);
+console.log("slice 'javascript':", sliceResult2);
